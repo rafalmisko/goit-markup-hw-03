@@ -19,6 +19,10 @@ p {
   padding: 0;
 }
 
+img { display: block;}
+
+.list {list-style: none;}
+
 :root {
   --main-color: #212121;
   --second-color-logo: #2196f3;
