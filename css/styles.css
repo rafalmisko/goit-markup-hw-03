@@ -125,21 +125,6 @@ ul {
   display: flex;
 }
 
-.navigation-item {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.142;
-  letter-spacing: 0.02em;
-  display: flex;
-  color: var(--main-color);
-}
-
-.navigation-item:hover,
-.navigation-item:focus {
-  color: var(--main-color-link-hover-focus);
-  cursor: pointer;
-}
-
 .navigation-menu:not(:last-child) {
   margin-right: 46px;
 }
@@ -149,6 +134,14 @@ ul {
   display: flex;
 }
 
+.navigation-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  display: flex;
+  color: var(--main-color);
+}
 
 .navigation-item:hover,
 .navigation-item:focus {
