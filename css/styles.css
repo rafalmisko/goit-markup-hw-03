@@ -58,10 +58,8 @@ img {
 .container {
   width: 1200;
   padding: 0 15px;
-  align-items: center;
   margin: 0 auto;
 }
-
 
 .section {
   padding-top: 94px;
@@ -112,12 +110,14 @@ ul {
 /*==========HEADER NAVIGATION==========*/
 
 .navigation {
-  display: .navigation {
   display: flex;
 }
 
 .header .container {
   display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .navigation-menu {
@@ -140,14 +140,8 @@ ul {
   cursor: pointer;
 }
 
-
 .navigation-menu:not(:last-child) {
   margin-right: 46px;
-} ;
-}
-
-.header .container {
-  display: flex;
 }
 
 .navigation-menu {
@@ -170,11 +164,9 @@ ul {
   cursor: pointer;
 }
 
-
-.navigation-menu:not(:last-child) {
+.navigation-menu .navigation-item:not(:last-child) {
   margin-right: 46px;
 }
-
 
 /*==========NAV PHONE AND MAIL==========*/
 
@@ -184,7 +176,6 @@ ul {
   line-height: 1.142;
   letter-spacing: 0.02em;
   color: var(--main-color-link);
-  margin-left: auto;
 }
 
 .header-mail-address {
@@ -195,7 +186,10 @@ ul {
   letter-spacing: 0.02em;
   margin-left: auto;
   color: var(--main-color-link);
-  
+}
+
+.header .header-phone-number {
+  margin-left: 30px;
 }
 
 .header-mail-address:hover,
