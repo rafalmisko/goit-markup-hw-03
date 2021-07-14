@@ -125,14 +125,6 @@ ul {
   display: flex;
 }
 
-.navigation-menu:not(:last-child) {
-  margin-right: 46px;
-}
-
-.navigation-menu {
-  list-style-type: none;
-  display: flex;
-}
 
 .navigation-item {
   font-weight: 500;
