@@ -276,12 +276,23 @@ ul {
 .container .content-list {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; 
- 
+  flex-direction: column; 
+   
 
 } 
 
+.content-list .content-item {
+   width: 270px;
+  margin: 0px 15px;
+
+
+}  
+
+.content .h3 {
  
+
+}
+
 /*==========OUR TEEM==========*/
 
 .our-team {
