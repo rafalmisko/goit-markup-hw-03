@@ -62,7 +62,7 @@ img {
   min-height: 80px;
   padding: 0 15px; 
   margin: 0 auto; 
-  aling-items: center; 
+  align-items: center; 
 }
 
 .section {
@@ -269,23 +269,25 @@ ul {
 
 /*==========CONTENT ==========*/
 
-.container .content-list {
-   display: flex; 
+.container .content-list   {
+   display: flex;
+   justify-content: center;
    
-     
-}
 
-.content-item {
+}
+ 
+
+/*.content-item {
   display: flex;  
   width: 270px;
   margin: 0px 15px;
-}
+}*/
 
 /*.content-list .content-item:not(last-child) {
   margin-right: 30px;
-*/
-/
-/*.content h3 {
+}*/
+
+.content h3 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
@@ -299,12 +301,45 @@ ul {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: #757575;
-}*/
+}
+
+
+/*==========OUR SERVICES=========*/
+
+.container .services-list {
+
+  display: flex;   
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-list h2 {
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  margin-bottom: 40px;
+}
+
+
+/*==========END OUR SERVICES==========*/
+
 
 /*==========OUR TEEM==========*/
 
 .our-team {
   background-color: var(--background-color-our-team);
+}
+
+.our-team-list .our-team-item {
+
+  display: flex;
+  text-align: center;
+  padding-bottom: 94px;
 }
 
 /*==========END OUR TEEM==========*/
@@ -332,8 +367,19 @@ ul {
 /**==========FOOTER==========*/
 
 .footer {
+   
   background-color: var(--footer-background-color);
 }
+
+.footer .container {
+ padding: 60px 0px;
+}
+
+.footer .item:first-child {
+
+  margin-top: 20px; 
+}
+
 
 .footer-address {
   font-weight: normal;
