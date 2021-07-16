@@ -338,11 +338,6 @@ ul {
 }
 */
 
-/*==========END OUR SERVICES==========*/
-
-
-/*==========OUR TEEM==========*/
-
 .container .services-list {
     
   display: flex; 
@@ -355,6 +350,37 @@ ul {
   margin: 0 15px; 
 
 }
+
+
+/*==========END OUR SERVICES==========*/
+
+
+/*==========OUR TEEM==========*/
+
+
+.our-team h2 {
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 40px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.container .our-team-list {
+
+  display: flex; 
+
+}
+
+.our-team-item {
+
+    margin: 50px 15px 0px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+}
+
 
 
 /*.our-team-list .our-team-item {
