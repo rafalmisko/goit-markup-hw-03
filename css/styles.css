@@ -305,7 +305,7 @@ ul {
 
 
 /*==========OUR SERVICES=========*/
-
+/*
 .container .services-list {
 
   display: flex;   
@@ -313,7 +313,19 @@ ul {
   justify-content: center;
   align-items: center;
 }
+*/
+.our-services h2 {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 40px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
 
+ }
+
+/*
 .services-list h2 {
 
   font-weight: 700;
@@ -324,24 +336,34 @@ ul {
   color: var(--main-color);
   margin-bottom: 40px;
 }
-
+*/
 
 /*==========END OUR SERVICES==========*/
 
 
 /*==========OUR TEEM==========*/
 
-.our-team {
-  background-color: var(--background-color-our-team);
+.container .services-list {
+    
+  display: flex; 
+  justify-content: center;   
+  
+}
+ 
+.services-list .services-item {
+ 
+  margin: 0 15px; 
+
 }
 
-.our-team-list .our-team-item {
+
+/*.our-team-list .our-team-item {
 
   display: flex;
   text-align: center;
   padding-bottom: 94px;
 }
-
+*/
 /*==========END OUR TEEM==========*/
 
 /**==========PORTFOLIO==========*/
