@@ -3,6 +3,8 @@ body {
   color: #212121;
   text-decoration: none;
   width: 1600px;
+  marign-left: auto;
+  margin-right: auto; 
 }
 
 h1,
@@ -342,13 +344,10 @@ ul {
     
   display: flex; 
   justify-content: center;   
-  
-}
+  }
  
 .services-list .services-item {
- 
-  margin: 0 15px; 
-
+   margin: 0 15px; 
 }
 
 
@@ -369,9 +368,7 @@ ul {
 }
 
 .container .our-team-list {
-
   display: flex; 
-
 }
 
 .our-team-item {
@@ -379,9 +376,35 @@ ul {
     margin: 50px 15px 0px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
+
+.our-team-person {
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: var(--main-color);
+
 }
 
+.our-team-job {
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--additional-color);
+}
 
+.person-square {
+    padding: 30px 0px;
+    text-align: center;
+    background-color: var(--third-color);
+    border: 0px;
+    border-radius: 0px 0px 4px 4px;
+}  
+
+ 
 
 /*.our-team-list .our-team-item {
 
@@ -415,8 +438,7 @@ ul {
 /**==========FOOTER==========*/
 
 .footer {
-   
-  background-color: var(--footer-background-color);
+   background-color: var(--footer-background-color);
 }
 
 .footer .container {
@@ -424,7 +446,6 @@ ul {
 }
 
 .footer .item:first-child {
-
   margin-top: 20px; 
 }
 
