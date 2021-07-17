@@ -120,7 +120,7 @@ ul {
   display: flex;
 }
 .header {
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--header-color);
 }
 
 .header .container {
