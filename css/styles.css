@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Open Sans", sans-serif;
   color: #212121;
   text-decoration: none;
   width: 1600px;
@@ -88,6 +88,7 @@ ul {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
+  font-style: normal; 
   line-height: 1.192;
   color: var(--main-color);
   text-decoration: inherit;
@@ -493,6 +494,7 @@ ul {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
+  font-style: normal; 
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -501,6 +503,7 @@ ul {
   line-height: 1.714;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
+  font-style: normal; 
   color: var(--main-color-link-tel);
 }
 
@@ -520,6 +523,7 @@ ul {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
+  font-style: normal; 
   color: var(--logo-footer-light);
   cursor: pointer;
 }
@@ -528,8 +532,10 @@ ul {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
+  font-style: normal; 
   color: var(--main-color-link-tel);
   cursor: pointer;
+
 }
 
 .footer-address:hover,
