@@ -3,7 +3,7 @@ body {
   color: #212121;
   text-decoration: none;
   width: 1600px;
-  marign-left: auto;
+  margin-left: auto;
   margin-right: auto;
 }
 
@@ -64,7 +64,7 @@ img {
   min-height: 80px;
   padding: 0 15px;
   margin: 0 auto;
-  align-items: center;
+ /* align-items: center;*/
 }
 
 .section {
@@ -244,6 +244,11 @@ ul {
 
 /*==========FILTERS==========*/
 
+.filters {
+  padding-top: 94px;
+}
+
+
 .filters-nav-button {
   font-weight: 500;
   font-size: 16px;
@@ -265,7 +270,13 @@ ul {
 
 .container .filters-list {
   display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-bottom: 50px;
 }
+
+ 
+ 
 
 /*==========END FILTR==========*/
 
@@ -301,7 +312,7 @@ ul {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: #757575;
+  
 }
 
 /*==========OUR SERVICES=========*/
@@ -406,6 +417,11 @@ ul {
 /*==========END OUR TEEM==========*/
 
 /**==========PORTFOLIO==========*/
+.portfolio {
+  padding-bottom: 94px;
+  
+}
+
 .portfolio-list {
   list-style: none;
 }
@@ -423,6 +439,39 @@ ul {
   line-height: 30px;
   letter-spacing: 0.03em;
 }
+
+.portfolio-list {
+  display: flex; 
+  flex-flow: row wrap; 
+}
+
+.portfolio-list .item  {
+  padding: 10px; 
+  
+  background-color: var(--main-color-button-link-active);
+}
+.item-box { 
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box; 
+  padding: 20px 24px; 
+}
+
+.portfolio-list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color); 
+
+}
+
+.portfolio-list-subtitles {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--main-color-link);
+}
+
 /**==========END PORTFOLIO==========*/
 
 /**==========FOOTER==========*/
