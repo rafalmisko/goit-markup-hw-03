@@ -19,7 +19,7 @@ h6 {
 :root {
   --main-color: #212121;
   --second-color-logo: #2196f3;
-  --logo-footer-light: #cbcbce;
+  --logo-footer-light: #ffffff;
   --main-color-link-hover-focus: #2196f3;
   --main-color-link: #757575;
   --main-color-link-tel: rgba(255, 255, 255, 0.6);
@@ -216,6 +216,7 @@ ul {
   text-align: center;
   font-size: 44px;
   color: var(--main-color-button-link-active);
+  
 }
 
 .hero-button {
@@ -289,16 +290,6 @@ ul {
   justify-content: center;
 }
 
-/*.content-item {
-  display: flex;  
-  width: 270px;
-  margin: 0px 15px;
-}*/
-
-/*.content-list .content-item:not(last-child) {
-  margin-right: 30px;
-}*/
-
 .content h3 {
   font-weight: 700;
   font-size: 14px;
@@ -306,6 +297,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-color);
+  padding-bottom: 10px; 
 }
 
 .content p {
@@ -328,25 +320,12 @@ ul {
 .our-services h2 {
   font-weight: 700;
   font-size: 36px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
-
-/*
-.services-list h2 {
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.167;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-color);
-  margin-bottom: 40px;
-}
-*/
 
 .container .services-list {
   display: flex;
@@ -361,10 +340,15 @@ ul {
 
 /*==========OUR TEEM==========*/
 
+.our-team {
+  background-color: var(--background-color-our-team);
+
+}
+
 .our-team h2 {
   font-weight: 700;
   font-size: 36px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
